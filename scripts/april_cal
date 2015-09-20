@@ -1,0 +1,3 @@
+#!/bin/bash
+  java april.camera.calibrator.AprilCal -u "tcp://12345" -c april.camera.models.AngularPolynomialInitializer -p kclength=4 -m 0.0381
+

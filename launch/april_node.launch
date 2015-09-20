@@ -1,0 +1,5 @@
+<launch>
+	<node name="april_node" pkg="april_package" type="april_node" args="127.0.0.1 12345" output="screen">
+		<remap from="in_image_base_topic"  to="/cameras/right_hand_camera/image" />
+	</node>
+</launch>
